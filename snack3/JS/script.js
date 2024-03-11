@@ -3,9 +3,10 @@
 //se è dispari inseriscilo nell’array.
 
 //array vuoto
-userNum = []
+numGroup = []
 
 //chiedere numeri a utente
 for(let i = 0; i < 6; i++){
-    
+    uerNum = parseInt(prompt(`Scegli un numero`))
+    //vedere se il numero è pari e pusharlo o meno
 }
