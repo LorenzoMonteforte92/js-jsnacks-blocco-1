@@ -10,5 +10,19 @@
 // console.log(arrayNum);
 
 //scrivo array
-num = [91, 60, 75, 1, 52, 34, 89, 28, 24, 49]
+num = [60, 75, 1, 91, 52, 34, 89, 28, 24, 49]
+
+//dichiaro variabile largest
+let largest = num[0];
+//scorrere tutto l'array
+for(let i = 0; i < num.length; i++){
+     //se un elemento dell'array è più grande dell'elemento 0 selezionato nella variabile largest, allora riassegnalo a quest'ultima variabile
+    if (num[i] > largest) {
+        largest = num[i];
+    }
+}
+
+console.log(largest)
+
+
 
